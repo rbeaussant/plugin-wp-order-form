@@ -1,0 +1,57 @@
+/* Styles CE Formulaire */
+
+.ce-form table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+.ce-form th,
+.ce-form td {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.ce-form input[type="number"],
+.ce-form input[type="text"],
+.ce-form input[type="email"],
+.ce-form input[type="tel"] {
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.ce-form input[type="number"] {
+  max-width: 70px;
+}
+
+.ce-form .category {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.ce-form .form-section {
+  margin-top: 2em;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+.ce-form .form-section label {
+  display: block;
+  margin: 8px 0 4px;
+  font-weight: 500;
+}
+
+.ce-form .button-primary {
+  background-color: #007cba;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ce-form .button-primary:hover {
+  background-color: #005a87;
+}

@@ -1,0 +1,37 @@
+/* Style admin pour les options CE */
+
+#ce-produits-table input,
+#ce-codes-table input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#ce-produits-table th,
+#ce-produits-table td,
+#ce-codes-table th,
+#ce-codes-table td {
+  padding: 8px;
+  vertical-align: middle;
+}
+
+#ce-produits-table td button,
+#ce-codes-table td button {
+  text-align: center;
+  font-weight: bold;
+  color: #a00;
+  background: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#ce-produits-table td button:hover,
+#ce-codes-table td button:hover {
+  color: #fff;
+  background: #a00;
+  border-color: #900;
+}
+
+button#add-produit-row,
+button#add-code-row {
+  margin-top: 10px;
+}
